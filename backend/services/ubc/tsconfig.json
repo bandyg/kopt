@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../../main/services/ubc"
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js"]
+}

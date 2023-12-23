@@ -1,14 +1,13 @@
 {
-  "name": "electron-typescript-next",
+  "name": "kiosk-next-opt",
   "version": "1.1.0",
   "main": "main/index.js",
   "icon": "build/icon.png",
-  "description": "Aplicação ElectronJS com NextJS e typescript. #tailwindcss",
+  "description": "Kiosk OPT Application",
   "private": true,
   "author": {
-    "name": "Saulo Costa",
-    "email": "saulotarsobc@gmail.com",
-    "url": "https://github.com/saulotarsobc/electron-next-ts"
+    "name": "Channel Team",
+    "email": "channel_team@hkjc.org.hk"
   },
   "scripts": {
     "dev": "npm run build-electron && electron .",
@@ -50,8 +49,8 @@
     "tailwindcss": "^3.3.6"
   },
   "build": {
-    "productName": "SC - Electron Typescript Next",
-    "appId": "electron-typescript-next",
+    "productName": "KioskOPT",
+    "appId": "electron-kiosk-next-opt",
     "win": {
       "target": [
         "nsis"
